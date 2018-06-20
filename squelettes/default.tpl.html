@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+  <meta charset='{{configuration param=' charset'}}'>
+  <meta name='keywords' content='{{configuration param=' meta_keywords'}}'>
+  <meta name='description' content='{{configuration param=' meta_description'}}'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>{{configuration param='wakka_name'}} : {{currentpage}}</title>
+  {{linkstyle}}
+  {{linkrss}}
+</head>
+<body {{parambody}}>
+  <header id='mainHeader'>
+    <a href='./'>
+      <img src='themes/insertion-egalite/images/logo.png' />
+    </a>
+    <h1>Réseau national de l'enseignement technique agricole</h1>
+  </header>
+  <!--<nav id='nav' role='navigation'>
+      <div id="menuToggle">
+        <input type="checkbox" />
+
+        <span class='burger'></span>
+        <span class='burger'></span>
+        <span class='burger'></span>
+
+        {{include page="PageMenuHaut" doubleclic="1"}}
+      </div>
+  </nav> -->
+  <nav id='nav' role='navigation'>
+    {{include page="PageMenuHaut" doubleclic="1"}}
+  </nav>
+  <article id='page' role='main' {{doubleclic}}>
+    {WIKINI_PAGE}
+  </article>
+  <footer id='mainFooter'>
+    {{include page="PageFooter" doubleclic="1"}}
+    <!--<div id='YesWikiLink'>(>^_^)> Galope sous <a href='https://www.yeswiki.net'>YesWiki</a> <(^_^<)</div>-->
+  </footer>
+  {{linkjavascript}}
+</body>
+</html>

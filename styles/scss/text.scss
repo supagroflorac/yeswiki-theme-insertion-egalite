@@ -1,0 +1,22 @@
+.page {
+  color: $color-text;
+  padding: $padding;
+
+  h1 {
+    color: $color-main;
+  }
+
+  a {
+    color: $color-secondary;
+  }
+
+  li {
+    margin-left: 1em;
+  }
+
+  .aceditor-toolbar {
+    a {
+      color: black;
+    }
+  }
+}

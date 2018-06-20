@@ -1,0 +1,18 @@
+#mainHeader {
+
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+
+  background-image: url(../images/texture.jpg);
+  background-size: cover;
+
+  padding: $padding;
+
+  h1 {
+    font-size: 1em;
+    font-weight: $bold;
+    color: $color-text;
+    text-align: center;
+  }
+}
