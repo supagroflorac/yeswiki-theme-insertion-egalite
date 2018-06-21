@@ -26,6 +26,22 @@ body {
   width: 100%;
 }
 
+#mainHeader {
+  order: 1;
+}
+
+#nav {
+  order: 2;
+}
+
+#page {
+  order: 3;
+}
+
+#mainFooter {
+  order: 4;
+}
+
 @import 'nav';
 @import 'header';
 @import 'footer';

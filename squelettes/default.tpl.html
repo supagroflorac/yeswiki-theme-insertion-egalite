@@ -9,32 +9,20 @@
   {{linkrss}}
 </head>
 <body {{parambody}}>
-  <header id='mainHeader'>
-    <a href='./'>
-      <img src='themes/insertion-egalite/images/logo.png' />
-    </a>
-    <h1>Réseau national de l'enseignement technique agricole</h1>
-  </header>
-  <!--<nav id='nav' role='navigation'>
-      <div id="menuToggle">
-        <input type="checkbox" />
-
-        <span class='burger'></span>
-        <span class='burger'></span>
-        <span class='burger'></span>
-
-        {{include page="PageMenuHaut" doubleclic="1"}}
-      </div>
-  </nav> -->
-  <nav id='nav' role='navigation'>
-    {{include page="PageMenuHaut" doubleclic="1"}}
-  </nav>
   <article id='page' role='main' {{doubleclic}}>
     {WIKINI_PAGE}
   </article>
+  <nav id='nav' role='navigation'>
+    {{include page="PageMenuHaut" doubleclic="1"}}
+  </nav>
+  <header id='mainHeader'>
+    <a href='./'>
+      <img src='themes/insertion-egalite/images/logo.png' alt="Logo réseau insertion égalité"/>
+    </a>
+    <h1>Réseau national de l'enseignement technique agricole</h1>
+  </header>
   <footer id='mainFooter'>
     {{include page="PageFooter" doubleclic="1"}}
-    <!--<div id='YesWikiLink'>(>^_^)> Galope sous <a href='https://www.yeswiki.net'>YesWiki</a> <(^_^<)</div>-->
   </footer>
   {{linkjavascript}}
 </body>
