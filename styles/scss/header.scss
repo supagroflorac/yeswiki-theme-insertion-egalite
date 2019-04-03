@@ -4,10 +4,11 @@
   align-items: center;
   flex-flow: column;
 
-  background-image: url(../images/texture.jpg);
+  background-image: url(../images/banniere.jpg);
   background-size: cover;
 
   padding: $padding;
+  min-height: 10em;
 
   h1 {
     font-size: 1em;
