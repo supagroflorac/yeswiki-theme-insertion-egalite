@@ -43,14 +43,12 @@ body {
 }
 
 .pagePrincipale {
+  text-align: center;
   figure {
     width: 100%;
-    h3 {text-align: center;}
-    a {
-      img {
+    a img {
         width: 100%;
         height: Auto;
-      }
     }
   }
 }
