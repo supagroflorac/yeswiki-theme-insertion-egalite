@@ -7,13 +7,13 @@
   background-image: url(../images/banniere.jpg);
   background-size: cover;
 
-  padding: $padding;
-  min-height: 10em;
+  padding: 0;
+  height: 270px;
 
-  h1 {
-    font-size: 1em;
-    font-weight: $bold;
-    color: $color-text;
-    text-align: center;
+  a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
   }
 }

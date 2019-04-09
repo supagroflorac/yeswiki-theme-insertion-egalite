@@ -42,6 +42,19 @@ body {
   order: 4;
 }
 
+.pagePrincipale {
+  figure {
+    width: 100%;
+    h3 {text-align: center;}
+    a {
+      img {
+        width: 100%;
+        height: Auto;
+      }
+    }
+  }
+}
+
 @import 'nav';
 @import 'header';
 @import 'footer';
